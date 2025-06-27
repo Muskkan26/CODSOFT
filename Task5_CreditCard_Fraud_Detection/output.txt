@@ -1,0 +1,35 @@
+=== Original Class Distribution ===
+Class
+0    284315
+1       492
+Name: count, dtype: int64
+
+=== Resampled Class Distribution ===
+Class
+0    227451
+1    227451
+Name: count, dtype: int64
+
+=== Logistic Regression Classification Report ===
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99     56864
+           1       0.06      0.92      0.11        98
+
+    accuracy                           0.97     56962
+   macro avg       0.53      0.95      0.55     56962
+weighted avg       1.00      0.97      0.98     56962
+
+=== Random Forest Classification Report ===
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.87      0.83      0.85        98
+
+    accuracy                           1.00     56962
+   macro avg       0.94      0.91      0.92     56962
+weighted avg       1.00      1.00      1.00     56962
+
+=== Confusion Matrix (Random Forest) ===
+[[56852    12]
+ [   17    81]]
